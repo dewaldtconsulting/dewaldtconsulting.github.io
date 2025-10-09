@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeWaldt Consulting and Contracting (Pty) Ltd</title>
+    <meta name="description" content="DeWaldt Consulting and Contracting (Pty) Ltd is a leading consulting firm specializing in project management, engineering, and construction services.">
+
+    <!-- Preload large image -->
+    <link rel="preload" href="assets/img/background.jpg" as="image">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://lunevedy.com/assets/2.0/css/lunevedy.min.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome 6 icons for buttons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Styles for Cookie Consent Popup Message  -->
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="assets/img/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="assets/img/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="assets/img/favicons/site.webmanifest" />
+
+    <!-- Google Analytics-->
+
+</head>
+
+<body>
+
+<!--navbar menu begins here-->
+<nav class="theme-light">
+	<div class="container-menu">
+		<a href="#" class="brand">
+			<img src="assets/img/logo.png" alt="Website Logo" width="200" height="100">
+		</a>
+
+		<div class="container-menu-links">
+
+			<!-- hamburger icon -->
+			<div class="nav-toggle" id="nav-toggle-btn">
+				<div class="bar-1"></div>
+				<div class="bar-2"></div>
+				<div class="bar-3"></div>
+			</div>
+
+			<!-- List of links -->
+			<ul class="links-wrapper">
+				<li><a href="#">Home</a></li>
+				<li><a href="about/index.html">About</a></li>
+				<li><a href="services/index.html">Services</a></li>
+				<li><a href="sectors/index.html">Sectors</a></li>
+                <li><a href="process/index.html">Process</a></li>
+                <li><a href="projects/index.html">Projects</a></li>
+                <li><a href="compliance/index.html">Compliance</a></li>
+				<li><a class="btn btn-solid btn-soft btn-shadow" id="btn-cta" href="contact/index.html"><span>Contact</span><i class="fa-regular fa-pen-to-square"></i></a></li>
+			</ul>
+
+		</div><!-- closes container-menu-links -->
+	</div><!-- closes container-menu -->
+</nav>
+<!-- navbar menu ends here -->
+
+<!-- header starts here -->
+<header class="theme-light hero-bg text-center-desktop text-center-mobile desktop-min-height-90vh">
+
+    <div class="container-text">
+			
+        <!--<h1 class="text-shadow heading-underline">Nice <span class="highlight">heading</span> here</h1>
+        <h2 class="text-shadow">A sub-heading that motivates visitors to continue reading.</h2>-->
+    </div>
+
+    <div class="container-btn">
+        <a href="#" class="btn btn-solid btn-soft btn-shadow btn-uppercase"><i class="fa-solid fa-archway"></i><span>View Projects</span></a>
+        <a href="#" class="btn btn-solid btn-soft btn-shadow btn-uppercase"><i class="fa-regular fa-file-lines"></i><span>Request Quote</span></a>
+    </div>
+
+    <div class="container-media push-to-right">
+        <video class="background-video" playsinline="" muted="" autoplay="" poster="assets/img/poster.jpg" disablepictureinpicture="" preload="auto"><source src="assets/videos/logo-video2.mp4" type="video/mp4">Your browser does not support the video</video>
+
+        <img class="background-img" src="assets/img/background.jpg" alt="DeWaldt Consulting Background Image">
+    </div>
+
+    <div class="container-overlay"></div>
+
+</header>
+<!-- header ends here -->
+
+    <!-- Main content of web page in sections -->
+    <main>
+        <section>
+            <h2>Smaller Heading</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima exercitationem, fuga doloribus sequi sint eveniet nobis nulla obcaecati quibusdam quae, quia aliquam mollitia ea vel ullam dolores natus in quisquam?</p>
+        </section>
+
+        <section>
+            <h2>Smaller Heading</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima exercitationem, fuga doloribus sequi sint eveniet nobis nulla obcaecati quibusdam quae, quia aliquam mollitia ea vel ullam dolores natus in quisquam?</p>
+        </section>
+
+        <section>
+            <h2>Smaller Heading</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima exercitationem, fuga doloribus sequi sint eveniet nobis nulla obcaecati quibusdam quae, quia aliquam mollitia ea vel ullam dolores natus in quisquam?</p>
+        </section>
+    </main>
+
+    <!-- Links to related web pages, legal and copyright -->
+    <footer></footer>
+
+    <script>
+    const navToggle = document.getElementById("nav-toggle-btn");
+    const navLinks = document.querySelector(".links-wrapper");
+
+    navToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+    });
+    </script>
+
+</body>
+</html>
+
+
+
+
