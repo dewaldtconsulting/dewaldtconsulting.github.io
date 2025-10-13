@@ -131,7 +131,7 @@ nav.theme-light .brand img {
     width: 200px;
     max-height: 70px;
     margin-bottom: 10px;
-}
+} 
 
 /* HERO & Background Img */
 header.hero-bg { 
@@ -230,7 +230,7 @@ header.theme-light .container-btn a.btn:nth-child(2):active { font-size: larger;
     flex-wrap: nowrap;
     justify-content: center;
     align-self: center;
-    top: 100px;
+    top: 110px;
 }
 }
 
