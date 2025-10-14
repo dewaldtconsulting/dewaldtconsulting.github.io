@@ -183,7 +183,7 @@ header.hero-bg .container-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 25px;
     padding: 10px;;
 }
@@ -201,18 +201,18 @@ header.hero-bg .container-text .highlight {
 }
 
 header.hero-bg .container-text .divider {
-    width: 40%;
+    width: 30%;
     height: 4px;
     background-color: var(--iconsilver);
     margin-top: 5px;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 8px black;
 }
 
 header.hero-bg .container-text h2 {
     font-family: "Inter", sans-serif;
     font-size: 24px;
     text-align: center;
-    color: var(--grayscale950);
+    color: var(--darknavy);
     margin-top: 15px;
 }
 
@@ -234,12 +234,12 @@ header.hero-bg .container-text h2 {
 }
 
 @media (max-width: 767px) { header.hero-bg .container-text .divider {
-    width: 40%;
+    width: 30%;
     height: 2px;
     background-color: var(--iconsilver);
     margin-top: 2px;
     margin-bottom: 2px;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 8px black;
 }
 }
 
@@ -247,7 +247,7 @@ header.hero-bg .container-text h2 {
     font-family: "Inter", sans-serif;
     font-size: 12px;
     text-align: center;
-    color: var(--grayscale950);
+    color: var(--darknavy);
     margin-top: 0px;
 }
 }
