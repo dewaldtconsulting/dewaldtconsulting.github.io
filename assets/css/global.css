@@ -120,20 +120,23 @@ nav.theme-light .nav-toggle .bar-3 { background-color: white };
     padding: 0;
 
     /* Animation Setup */
+    max-height: 0;
     opacity: 0;
-    transform: translateY(-10px);
+    overflow: hidden;
     visibility: hidden;
     pointer-events: none;
-    transition: opacity 0.35s ease-out, transform 0.35s ease-out;
+    transform: translateY(-10px);
+    transition:
+        max-height 0.4s ease,
+        opacity 0.3s ease, 
+        transform 0.4s ease;
     z-index: 999;
-    
-    /* Stability helpers */
-    will-change: transform, opacity;
-    backface-visibility: hidden;
+    will-change: max-height, opacity, transform;
 }
 }
 /* Active Menu */
 @media (max-width: 767px) { nav.theme-light ul.links-wrapper.active { 
+    max-height: 380px; /* Adjust based on number of links */
     opacity: 1;
     transform: translateY(0);
     visibility: visible;
@@ -144,31 +147,54 @@ nav.theme-light .nav-toggle .bar-3 { background-color: white };
 
 /* Mobile Menu Links */
 @media (max-width: 767px) { 
+nav.theme-light ul.links-wrapper.active li a { 
+    color: white;
+    font-size: 16px;
+    transition: none;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: none;
+
+} 
+}
+
+/*@media (max-width: 767px) { 
 nav.theme-light ul.links-wrapper.active li a:link,
 nav.theme-light ul.links-wrapper.active li a:visited { 
     color: white;
     font-size: 16px;
-    /*transition: color 0.25s ease 0.25s, 
-                font-size 0.25s ease 0.25s;
-    will-change: color, font-size;*/
-} 
-}
-
-@media (max-width: 767px) { 
-nav.theme-light ul.links-wrapper.active li a:focus,
-nav.theme-light ul.links-wrapper.active li a:hover,
-nav.theme-light ul.links-wrapper.active li a:active { 
-    color: var(--headingsblue);
-    font-size: 14px;
-    text-decoration-color: var(--headingsblue);
+    display: block;
     transition: color 0.25s ease 0.25s, 
                 font-size 0.25s ease 0.25s, 
                 text-decoration-color 0.25s ease 0.25s;
     will-change: color, font-size, text-decoration-color;
 } 
+}*/
+
+@media (max-width: 767px) { 
+nav.theme-light ul.links-wrapper.active li a:focus,
+nav.theme-light ul.links-wrapper.active li a:hover,
+nav.theme-light ul.links-wrapper.active li a:active { 
+    color: var(--darknavy);
+    text-decoration-color: var(--darknavy);
+} 
 }
 
 @media (max-width: 767px) { 
+nav.theme-light ul.links-wrapper.active a#btn-cta {
+    background-color: var(--darknavy);
+    border-color: var(--darknavy);
+    color: white;
+    margin-left: -15px;
+    font-size: 16px;
+    transition:
+        background-color 0.25s ease,
+        border-color 0.25s ease,
+        color 0.25s ease;
+}
+}
+
+/*@media (max-width: 767px) { 
 nav.theme-light ul.links-wrapper.active a#btn-cta:link, 
 nav.theme-light ul.links-wrapper.active a#btn-cta:visited {    
     color: white;
@@ -176,30 +202,22 @@ nav.theme-light ul.links-wrapper.active a#btn-cta:visited {
     border-color: var(--darknavy);
     font-size: 16px; 
     margin-left: -10px;
-    /*transition: color 0.25s ease 0.25s, 
-                background-color 0.25s ease 0.25s,
-                border-color 0.25s ease 0.25s,
-                font-size 0.25s ease 0.25s,
-                margin 0.25s ease 0.25s;
-    will-change: color, background-color, border-color, font-size, margin;*/
-} 
-}
-
-@media (max-width: 767px) { 
-nav.theme-light ul.links-wrapper.active a#btn-cta:focus,
-nav.theme-light ul.links-wrapper.active a#btn-cta:hover,
-nav.theme-light ul.links-wrapper.active a#btn-cta:active { 
-    color: var(--darknavy);
-    background-color: var(--hoversilver);
-    border-color: var(--hoversilver);
-    font-size: 14px;
-    margin-left: -10px;
     transition: color 0.25s ease 0.25s, 
                 background-color 0.25s ease 0.25s,
                 border-color 0.25s ease 0.25s,
                 font-size 0.25s ease 0.25s,
                 margin 0.25s ease 0.25s;
     will-change: color, background-color, border-color, font-size, margin;
+} 
+}*/
+
+@media (max-width: 767px) { 
+nav.theme-light ul.links-wrapper.active a#btn-cta:focus,
+nav.theme-light ul.links-wrapper.active a#btn-cta:hover,
+nav.theme-light ul.links-wrapper.active a#btn-cta:active { 
+    background-color: var(--hoversilver);
+    border-color: var(--hoversilver);
+    color: var(--darknavy);
 }
 }
 
