@@ -112,7 +112,6 @@ nav.theme-light .nav-toggle .bar-3 { background-color: white };
     position: absolute;
     top: 100%;
     left: 0;
-    /*margin: 0;*/
     width: 100%;
     background-color: var(--backgroundblue);
     flex-direction: column;
@@ -126,21 +125,16 @@ nav.theme-light .nav-toggle .bar-3 { background-color: white };
     z-index: 999;
     backface-visibility: hidden;
     will-change: transform, opacity;
-    
+    margin: 0;
+    padding: 0;
 }
 }
-
+/* Active Menu */
 @media (max-width: 767px) { nav.theme-light ul.links-wrapper.active { 
     transform: scaleY(1);
     opacity: 1;
-    /*visibility: visible;*/
+    visibility: visible;
     background-color: var(--backgroundblue);
-}
-}
-
-@media (max-width: 767px) { nav.theme-light ul.links-wrapper li {
-    transform: none;
-    opacity: 1;
 }
 }
 
