@@ -116,46 +116,42 @@ nav.theme-light .nav-toggle .bar-3 { background-color: white };
     background-color: var(--backgroundblue);
     flex-direction: column;
     align-items: center;
-
-    /* Animation Setup */
-    transform: scaleY(0);
-    transform-origin: top;
-    opacity: 0;
-    transition: transform 0.25s ease-out, opacity 0.25s ease-out;
-    z-index: 999;
-    visibility: hidden;
-    will-change: transform, opacity;
     margin: 0;
     padding: 0;
 
+    /* Animation Setup */
+    opacity: 0;
+    transform: translateY(-10px);
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.35s ease-out, transform 0.35s ease-out;
+    z-index: 999;
+    
+    /* Stability helpers */
     will-change: transform, opacity;
     backface-visibility: hidden;
-    contain: paint;
-    transform-style: preserve-3d;
 }
 }
 /* Active Menu */
 @media (max-width: 767px) { nav.theme-light ul.links-wrapper.active { 
-    transform: scaleY(1);
     opacity: 1;
+    transform: translateY(0);
     visibility: visible;
+    pointer-events: auto;
     background-color: var(--backgroundblue);
 }
 }
 
 /* Mobile Menu Links */
-@media (max-width: 767px) { nav.theme-light ul.links-wrapper li {
-    transform: none !important; /* stop inherited transform recalculation */
-  }
-}
-
 @media (max-width: 767px) { nav.theme-light ul.links-wrapper li a {
-    display: inline-block;
-    transform: translateZ(0); /* forces GPU rendering per link */
+    color: white;
+    font-size: 16px;
+    transition: color 0.25s ease 0.25s, 
+                font-size 0.25s ease 0.25s;
   }
 }
 
-@media (max-width: 767px) { 
+/*@media (max-width: 767px) { 
 nav.theme-light ul.links-wrapper.active li a:link,
 nav.theme-light ul.links-wrapper.active li a:visited { 
     color: white;
@@ -164,7 +160,7 @@ nav.theme-light ul.links-wrapper.active li a:visited {
                 font-size 0.25s ease 0.25s;
     will-change: color, font-size;
 } 
-}
+}*/
 
 @media (max-width: 767px) { 
 nav.theme-light ul.links-wrapper.active li a:focus,
