@@ -184,8 +184,8 @@ nav.theme-light ul.links-wrapper.active li a:active {
 nav.theme-light ul.links-wrapper.active a#btn-cta:link, 
 nav.theme-light ul.links-wrapper.active a#btn-cta:visited {    
     color: white;
-    background-color: black;
-    border-color: black;
+    background-color: var(--darknavy);
+    border-color: var(--darknavy);
     font-size: 16px; 
     margin-left: -10px;
     transition: color 0.25s ease 0.25s, 
@@ -201,7 +201,7 @@ nav.theme-light ul.links-wrapper.active a#btn-cta:visited {
 nav.theme-light ul.links-wrapper.active a#btn-cta:focus,
 nav.theme-light ul.links-wrapper.active a#btn-cta:hover,
 nav.theme-light ul.links-wrapper.active a#btn-cta:active { 
-    color: black;
+    color: var(--darknavy);
     background-color: var(--hoversilver);
     border-color: var(--hoversilver);
     font-size: 14px;
