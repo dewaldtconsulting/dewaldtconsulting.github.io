@@ -261,19 +261,19 @@ header.hero-bg .container-text h1 {
     font-family: "Montserrat", sans-serif;
     text-align: center;
     color: var(--darknavy);
-    font-weight: 450;
+    font-weight: 600;
     margin-top: -10px;
 }
 
 header.hero-bg .container-text .highlight {
     color: var(--hoversilver);
-    text-shadow: #0D0D0D 1px 1px 2px;
+    text-shadow: #0D0D0D 2px 2px 4px;
 }
 
 header.hero-bg .container-text .divider {
     width: 30%;
     height: 4px;
-    background: var(--backgroundblue);
+    background: var(--iconsilver);
     margin-top: 5px;
     box-shadow: 0 0 10px #0D0D0D;
 }
@@ -290,7 +290,7 @@ header.hero-bg .container-text h2 {
 @media (max-width: 767px) { header.hero-bg .container-text{
     z-index: 2;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 } 
 
@@ -391,7 +391,7 @@ header.theme-light .container-btn a.btn:nth-child(2):active { font-size: 1.75vw;
     display: flex;
     flex-wrap: nowrap;
     gap: 5px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 }
 
