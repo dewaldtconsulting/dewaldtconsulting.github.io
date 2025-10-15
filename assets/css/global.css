@@ -148,9 +148,9 @@ nav.theme-light ul.links-wrapper.active li a:link,
 nav.theme-light ul.links-wrapper.active li a:visited { 
     color: white;
     font-size: 16px;
-    transition: color 0.25s ease 0.25s, 
+    /*transition: color 0.25s ease 0.25s, 
                 font-size 0.25s ease 0.25s;
-    will-change: color, font-size;
+    will-change: color, font-size;*/
 } 
 }
 
@@ -176,12 +176,12 @@ nav.theme-light ul.links-wrapper.active a#btn-cta:visited {
     border-color: var(--darknavy);
     font-size: 16px; 
     margin-left: -10px;
-    transition: color 0.25s ease 0.25s, 
+    /*transition: color 0.25s ease 0.25s, 
                 background-color 0.25s ease 0.25s,
                 border-color 0.25s ease 0.25s,
                 font-size 0.25s ease 0.25s,
                 margin 0.25s ease 0.25s;
-    will-change: color, background-color, border-color, font-size, margin;
+    will-change: color, background-color, border-color, font-size, margin;*/
 } 
 }
 
