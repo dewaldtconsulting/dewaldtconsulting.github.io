@@ -290,7 +290,7 @@ header.hero-bg .container-text h2 {
 @media (max-width: 767px) { header.hero-bg .container-text{
     z-index: 2;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 } 
 
@@ -298,9 +298,15 @@ header.hero-bg .container-text h2 {
     font-family: "Montserrat", sans-serif;
     text-align: center;
     color: var(--darknavy);
-    font-weight: 400;
+    font-weight: bold;
     font-size: 5vw;
     margin-bottom: 5px;
+}
+}
+
+@media (max-width: 767px) { header.hero-bg .container-text .highlight {
+    color: var(--hoversilver);
+    text-shadow: #0D0D0D 1px 1px 2px;
 }
 }
 
