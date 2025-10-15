@@ -123,10 +123,15 @@ nav.theme-light .nav-toggle .bar-3 { background-color: white };
     opacity: 0;
     transition: transform 0.25s ease-out, opacity 0.25s ease-out;
     z-index: 999;
-    backface-visibility: hidden;
+    visibility: hidden;
     will-change: transform, opacity;
     margin: 0;
     padding: 0;
+
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    contain: paint;
+    transform-style: preserve-3d;
 }
 }
 /* Active Menu */
@@ -139,6 +144,17 @@ nav.theme-light .nav-toggle .bar-3 { background-color: white };
 }
 
 /* Mobile Menu Links */
+@media (max-width: 767px) { nav.theme-light ul.links-wrapper li {
+    transform: none !important; /* stop inherited transform recalculation */
+  }
+}
+
+@media (max-width: 767px) { nav.theme-light ul.links-wrapper li a {
+    display: inline-block;
+    transform: translateZ(0); /* forces GPU rendering per link */
+  }
+}
+
 @media (max-width: 767px) { 
 nav.theme-light ul.links-wrapper.active li a:link,
 nav.theme-light ul.links-wrapper.active li a:visited { 
