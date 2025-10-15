@@ -117,22 +117,22 @@ nav.theme-light .nav-toggle .bar-3 { background-color: white };
     align-items: center;
 
     /* Animation Setup */
-    transform: translateY(-20px);
-    /*max-height: 0;*/
-    /*overflow: hidden;*/
+    transform: translateY(-20px) translateZ(0);
     opacity: 0;
-    visibility: hidden;
+    backface-visibility: hidden;
     transition: transform 0.3s ease, opacity 0.3s ease;
     z-index: 999;
+    will-change: transform, opacity;
+    visibility: hidden;
 }
 }
 
 @media (max-width: 767px) { nav.theme-light ul.links-wrapper.active { 
-    /*max-height: 380px;*/
     transform: translateY(0);
     opacity: 1;
     visibility: visible;
     background-color: var(--backgroundblue);
+    box-shadow: none !important;
 }
 }
 
