@@ -100,30 +100,35 @@ nav.theme-light a#btn-cta:active {
 }
 
 /* Mobile Menu */
-nav.theme-light .nav-toggle {background-color: var(--backgroundblue);}
+nav.theme-light .nav-toggle {background-color: var(--backgroundblue); }
+
 nav.theme-light .nav-toggle .bar-1,
 nav.theme-light .nav-toggle .bar-2,
 nav.theme-light .nav-toggle .bar-3 { background-color: white };
 
-@media (max-width: 767px) { nav.theme-light ul.links-wrapper {
+@media (max-width: 767px) { 
+    /*Base State: Hidden Menu */
+    nav.theme-light ul.links-wrapper {
     position: absolute;
-    top: calc(100% - 2px);
+    top: 100%;
+    /*top: calc(100% - 2px);*/
     left: 0;
     margin: 0;
-    border: none;
+    /*border: none;*/
     width: 100%;
     background-color: var(--backgroundblue);
     flex-direction: column;
     align-items: center;
 
     /* Animation Setup */
-    transform: translateY(-20px) translateZ(0);
+    transform: translateY(-10px) translateZ(0);
     opacity: 0;
-    backface-visibility: hidden;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    z-index: 999;
-    will-change: transform, opacity;
     visibility: hidden;
+    transition: transform 0.35s ease cubic-bezier(0.25, 0.8, 0.25, 1), opacity 0.35s ease;
+    z-index: 999;
+    backface-visibility: hidden;
+    will-change: transform, opacity;
+    
 }
 }
 
