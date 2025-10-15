@@ -41,7 +41,7 @@
 <nav class="theme-light">
 	<div class="container-menu">
 		<a href="#" class="brand">
-			<img src="assets/img/logo.png" alt="DeWaldt Consulting and Contracting (Pty) Ltd Logo" width="200" height="100">
+			<img src="assets/img/logo.png" alt="DeWaldt Consulting and Contracting (Pty) Ltd Company Logo" width="200" height="100">
 		</a>
 
 		<div class="container-menu-links">
@@ -55,14 +55,14 @@
 
 			<!-- List of links -->
 			<ul class="links-wrapper">
-				<li><a href="#">Home</a></li>
-				<li><a href="about/index.html">About</a></li>
-				<li><a href="services/index.html">Services</a></li>
-				<li><a href="sectors/index.html">Sectors</a></li>
-                <li><a href="process/index.html">Process</a></li>
-                <li><a href="projects/index.html">Projects</a></li>
-                <li><a href="compliance/index.html">Compliance</a></li>
-				<li><a class="btn btn-solid btn-soft btn-shadow" id="btn-cta" href="contact/index.html"><span>Contact</span><i class="fa-regular fa-pen-to-square"></i></a></li>
+				<li><a href="javascript:void(0)">Home</a></li>
+				<li><a href="javascript:void(0)">About</a></li>
+				<li><a href="javascript:void(0)">Services</a></li>
+				<li><a href="javascript:void(0)">Sectors</a></li>
+                <li><a href="javascript:void(0)">Process</a></li>
+                <li><a href="javascript:void(0)">Projects</a></li>
+                <li><a href="javascript:void(0)">Compliance</a></li>
+				<li><a class="btn btn-solid btn-soft btn-shadow" id="btn-cta" href="javascript:void(0)"><span>Contact</span><i class="fa-regular fa-pen-to-square"></i></a></li>
 			</ul>
 
 		</div><!-- closes container-menu-links -->
@@ -74,14 +74,14 @@
 <header class="theme-light hero-bg text-center-desktop text-center-mobile">
 
     <div class="container-text">
-        <h1 >Flawless<span class="highlight text-shadow"> Fit-Outs</span><br> Zero <span class="highlight text-shadow">Downtime</span></h1>
+        <h1 >Flawless<span class="highlight"> Fit-Outs</span><br> Zero <span class="highlight">Downtime</span></h1>
         <span class="divider"></span>
         <h2>Premium fit-outs, renovations, and facilities maintenance for retail, corporate, and mission-critical spaces. Start your project today and experience seamless execution.</h2>
     </div>
 
     <div class="container-btn">
-        <a href="#" class="btn btn-solid btn-soft btn-shadow btn-uppercase"><i class="fa-solid fa-archway"></i><span>View Projects</span></a>
-        <a href="#" class="btn btn-solid btn-soft btn-shadow btn-uppercase"><i class="fa-regular fa-file-lines"></i><span>Request Quote</span></a>
+        <a href="javascript:void(0)" class="btn btn-solid btn-soft btn-shadow btn-uppercase"><i class="fa-solid fa-archway"></i><span>View Projects</span></a>
+        <a href="javascript:void(0)" class="btn btn-solid btn-soft btn-shadow btn-uppercase"><i class="fa-regular fa-file-lines"></i><span>Request Quote</span></a>
     </div>
 
     <div class="container-media">
@@ -140,14 +140,16 @@
     <!-- Links to related web pages, legal and copyright -->
     <footer></footer>
 
+    <!-- JavaScript for mobile menu toggle -->
     <script>
     const navToggle = document.getElementById("nav-toggle-btn");
     const navLinks = document.querySelector(".links-wrapper");
 
+    // Mobile menu toggle
     navToggle.addEventListener("click", () => {
         navLinks.classList.toggle("active");
     });
-    </script>
+</script>
 
 </body>
 </html>
