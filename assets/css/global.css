@@ -143,15 +143,7 @@ nav.theme-light .nav-toggle .bar-3 { background-color: white };
 }
 
 /* Mobile Menu Links */
-@media (max-width: 767px) { nav.theme-light ul.links-wrapper li a {
-    color: white;
-    font-size: 16px;
-    transition: color 0.25s ease 0.25s, 
-                font-size 0.25s ease 0.25s;
-  }
-}
-
-/*@media (max-width: 767px) { 
+@media (max-width: 767px) { 
 nav.theme-light ul.links-wrapper.active li a:link,
 nav.theme-light ul.links-wrapper.active li a:visited { 
     color: white;
@@ -160,7 +152,7 @@ nav.theme-light ul.links-wrapper.active li a:visited {
                 font-size 0.25s ease 0.25s;
     will-change: color, font-size;
 } 
-}*/
+}
 
 @media (max-width: 767px) { 
 nav.theme-light ul.links-wrapper.active li a:focus,
