@@ -59,7 +59,7 @@ nav.theme-light  {
 }
 
 /* Menu */
-nav.theme-light ul.links-wrapper li { font-family: "Montserrat", sans-serif; }
+nav.theme-light ul.links-wrapper { font-family: "Montserrat", sans-serif; }
 
 nav.theme-light ul.links-wrapper li a:link,
 nav.theme-light ul.links-wrapper li a:visited { 
@@ -326,7 +326,7 @@ header.hero-bg .container-text h2 {
 @media (max-width: 767px) { header.hero-bg .container-text{
     z-index: 2;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 5px;
 }
 } 
 
@@ -362,6 +362,7 @@ header.hero-bg .container-text h2 {
     text-align: center;
     color: var(--darknavy);
     margin-top: 5px;
+    margin-bottom: -10px;
 }
 }
 
@@ -385,7 +386,7 @@ header.theme-light .container-btn a.btn:nth-child(1):visited { background-color:
 header.theme-light .container-btn a.btn:nth-child(1):link,
 header.theme-light .container-btn a.btn:nth-child(1):visited { border-color: var(--darknavy); }
 header.theme-light .container-btn a.btn:nth-child(1):link,
-header.theme-light .container-btn a.btn:nth-child(1):visited { font-size: 2vw; }
+header.theme-light .container-btn a.btn:nth-child(1):visited { font-size: 1.25vw; }
 
 header.theme-light .container-btn a.btn:nth-child(1):focus,
 header.theme-light .container-btn a.btn:nth-child(1):hover,
@@ -398,7 +399,7 @@ header.theme-light .container-btn a.btn:nth-child(1):hover,
 header.theme-light .container-btn a.btn:nth-child(1):active { border-color: var(--hoversilver);  }
 header.theme-light .container-btn a.btn:nth-child(1):focus,
 header.theme-light .container-btn a.btn:nth-child(1):hover,
-header.theme-light .container-btn a.btn:nth-child(1):active { font-size: 1.75vw; }
+header.theme-light .container-btn a.btn:nth-child(1):active { font-size: 1.5vw; }
 
 header.theme-light .container-btn a.btn:nth-child(2):link,
 header.theme-light .container-btn a.btn:nth-child(2):visited { color: white; }
@@ -407,7 +408,7 @@ header.theme-light .container-btn a.btn:nth-child(2):visited { background-color:
 header.theme-light .container-btn a.btn:nth-child(2):link,
 header.theme-light .container-btn a.btn:nth-child(2):visited { border-color: var(--darknavy); }
 header.theme-light .container-btn a.btn:nth-child(2):link,
-header.theme-light .container-btn a.btn:nth-child(2):visited { font-size: 2vw; }
+header.theme-light .container-btn a.btn:nth-child(2):visited { font-size: 1.25vw; }
 
 header.theme-light .container-btn a.btn:nth-child(2):focus,
 header.theme-light .container-btn a.btn:nth-child(2):hover,
@@ -420,14 +421,14 @@ header.theme-light .container-btn a.btn:nth-child(2):hover,
 header.theme-light .container-btn a.btn:nth-child(2):active { border-color: var(--hoversilver);  }
 header.theme-light .container-btn a.btn:nth-child(2):focus,
 header.theme-light .container-btn a.btn:nth-child(2):hover,
-header.theme-light .container-btn a.btn:nth-child(2):active { font-size: 1.75vw; }
+header.theme-light .container-btn a.btn:nth-child(2):active { font-size: 1.5vw; }
 
 /* Mobile Hero CTA */
 @media (max-width: 767px) { header.theme-light .container-btn {
     display: flex;
     flex-wrap: nowrap;
     gap: 5px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 }
 
@@ -485,3 +486,199 @@ header.theme-light .container-btn a.btn:nth-child(2):hover,
 header.theme-light .container-btn a.btn:nth-child(2):active { font-size: 1.75vw; } }
 
 /* Section: Intro */
+.section-selector-3.theme-light {
+    margin-bottom: -80px;
+}
+
+.section-selector-3.theme-light .intro {
+    font-size: 23px;
+    margin-top: -25px;
+    color: black;
+    font-family: "Inter", sans-serif;
+}
+
+.section-selector-3.theme-light .intro .bold-text {
+    color: var(--darknavy);
+}
+
+.section-selector-3.theme-light .service-item .fa-solid {
+    color: var(--backgroundblue);
+}
+
+.section-selector-3.theme-light .service-item p {
+    font-size: 23px;
+}
+
+.section-selector-3.theme-light .service-item .bold-text {
+    color: var(--darknavy);
+}
+
+/* Mobile Section: Intro */
+@media (max-width: 767px) {
+    .section-selector-3.theme-light {
+    margin-bottom: -70px;
+}
+}
+
+@media (max-width: 767px) {
+    .section-selector-3.theme-light .intro {
+    font-size: 4vw;
+    margin-top: -25px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    margin-bottom: -5px;
+}
+}
+
+@media (max-width: 767px) {
+.section-selector-3.theme-light .service-item p {
+    font-size: 4vw;
+}
+}
+
+/* Section: Services Tiles */
+.section-selector-1.theme-light, .section-selector-2.theme-light, .section-selector-3.theme-light { 
+    background-color: var(--sky-050) 
+}
+
+.section-selector-2.theme-light {
+    margin-top: -80px;
+}
+
+.section-selector-1 .col-1 h2, .section-selector-2 .col-1 h2 {
+    text-transform: uppercase;
+    color: var(--darknavy);
+    font-size: 55px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+
+.section-selector-1 .col-1 .underline, .section-selector-2 .col-1 .underline {
+    width: 120px;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--iconsilver);
+    margin-top: -8px;
+}
+
+/* Mobile Headings */
+@media (max-width: 767px) {
+    .section-selector-1 .col-1 h2, .section-selector-2 .col-1 h2 {
+    text-transform: uppercase;
+    color: var(--darknavy);
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin-top: -20px;
+}
+}
+
+@media (max-width: 767px) {
+.section-selector-1 .col-1 .underline, .section-selector-2 .col-1 .underline {
+    width: 100px;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--iconsilver);
+    margin-top: -8px;
+    margin-bottom: -10px;
+}
+}
+
+/* Images */
+.section-selector-1 .col-3 figure, .section-selector-2 .col-3 figure {
+    position: relative;
+}
+
+.section-selector-1 .col-3 img, .section-selector-2 .col-3 img {
+    opacity: 1;
+    display: block;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    width: 80%;
+}
+
+.section-selector-1 .col-3 .text-box, .section-selector-2 .col-3 .text-box {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.section-selector-1 .col-3 .text, .section-selector-2 .col-3 .text {
+    background-color: #000035;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    font-family: "Inter", sans-serif;
+}
+
+.section-selector-1 .col-3 figure:hover img, .section-selector-2 .col-3 figure:hover img {
+    opacity: 0.3;
+}
+
+.section-selector-1 .col-3 figure:hover .text-box, .section-selector-2 .col-3 figure:hover .text-box {
+    opacity: 1;
+}
+
+/* Mobile Images */
+@media (max-width: 767px) {
+    .section-selector-1 .col-3 figure, .section-selector-2 .col-3 figure {
+        /*position: relative;*/
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-top: -10px;
+        margin-bottom: -20px;
+}
+}
+
+@media (max-width: 767px) {
+    .section-selector-1 .col-3 img, .section-selector-2 .col-3 img {
+        opacity: 1;
+        display: block;
+        transition: 0.5s ease;
+        backface-visibility: hidden;
+        width: 60%;
+}
+}
+
+@media (max-width: 767px) {
+    .section-selector-1 .col-3 .text-box, .section-selector-2 .col-3 .text-box {
+        transition: 0.5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+}
+}
+
+@media (max-width: 767px) {
+    .section-selector-1 .col-3 .text, .section-selector-2 .col-3 .text {
+        background-color: #000035;
+        color: white;
+        font-size: 12px;
+        padding: 8px 16px;
+        font-family: "Inter", sans-serif;
+}
+}
+
+@media (max-width: 767px) {
+    .section-selector-1 .col-3 figure:hover img, .section-selector-2 .col-3 figure:hover img {
+        opacity: 0.3;
+}
+}
+
+@media (max-width: 767px) {
+    .section-selector-1 .col-3 figure:hover .text-box, .section-selector-2 .col-3 figure:hover .text-box {
+        opacity: 1;
+}
+}
