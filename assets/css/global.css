@@ -60,7 +60,9 @@ nav.theme-light  {
 }
 
 /* Menu */
-nav.theme-light ul.links-wrapper { font-family: "Montserrat", sans-serif; }
+nav.theme-light ul.links-wrapper { 
+    font-family: "Montserrat", sans-serif; 
+}
 
 nav.theme-light ul.links-wrapper li a:link,
 nav.theme-light ul.links-wrapper li a:visited { 
@@ -980,6 +982,7 @@ footer.theme-light .copyright p {
 .section-selector-5.theme-light li {
     font-size: 1.75vw;
     font-family: "Inter", sans-serif;
+    font-weight: 350;
 }
 
 .section-selector-5.theme-light .fa-li i {
@@ -987,22 +990,31 @@ footer.theme-light .copyright p {
     color: var(--darknavy);
 }
 
-.section-selector-5.theme-light .about-text a:link,
-.section-selector-5.theme-light .about-text a:visited {
+.section-selector-5.theme-light .about-CTA {
+    font-size: 1.75vw;
+    font-family: "Inter", sans-serif;
+    font-weight: 350;
+    text-align: center;
+}
+
+.section-selector-5.theme-light .about-CTA a:link,
+.section-selector-5.theme-light .about-CTA a:visited {
     font-size: 1.75vw;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     text-decoration: none;
+    text-transform: uppercase;
     color: var(--hoverblue);
 }
 
-.section-selector-5.theme-light .about-text a:focus,
-.section-selector-5.theme-light .about-text a:hover, 
-.section-selector-5.theme-light .about-text a:active {
+.section-selector-5.theme-light .about-CTA a:focus,
+.section-selector-5.theme-light .about-CTA a:hover, 
+.section-selector-5.theme-light .about-CTA a:active {
     font-size: 1.75vw;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     text-decoration: none;
+    text-transform: uppercase;
     color: var(--darknavy);
 }
 
@@ -1060,8 +1072,17 @@ footer.theme-light .copyright p {
 }
 
 @media (max-width: 767px) {
-    .section-selector-5.theme-light .about-text a:link,
-    .section-selector-5.theme-light .about-text a:visited {
+    .section-selector-5.theme-light .about-CTA {
+        font-size: 3vw;
+        font-family: "Inter", sans-serif;
+        font-weight: 450;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-selector-5.theme-light .about-CTA a:link,
+    .section-selector-5.theme-light .about-CTA a:visited {
         font-size: 3vw;
         font-family: "Inter", sans-serif;
         font-weight: bold;
@@ -1071,9 +1092,9 @@ footer.theme-light .copyright p {
 }
 
 @media (max-width: 767px) {
-    .section-selector-5.theme-light .about-text a:focus,
-    .section-selector-5.theme-light .about-text a:hover, 
-    .section-selector-5.theme-light .about-text a:active {
+    .section-selector-5.theme-light .about-CTA a:focus,
+    .section-selector-5.theme-light .about-CTA a:hover, 
+    .section-selector-5.theme-light .about-CTA a:active {
         font-size: 3vw;
         font-family: "Inter", sans-serif;
         font-weight: bold;
