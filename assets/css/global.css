@@ -979,6 +979,11 @@ footer.theme-light .copyright p {
     margin-bottom: 20px;
 }
 
+.section-selector-5.theme-light .about-text-italics {
+    font-style: italic;
+    text-align: center;
+}
+
 .section-selector-5.theme-light li {
     font-size: 1.75vw;
     font-family: "Inter", sans-serif;
