@@ -1,14 +1,36 @@
 # dewaldtconsulting.github.io
 DeWaldt Consulting &amp; Contracting Pty Ltd
 
-Who We Are:
+About Us
 
-De Waldt Consulting and Contracting is a forward-thinking firm rooted in strong traditional values, now bringing top-tier commercial fit-out and facilities management expertise to South Africa.
+At DeWaldt Consulting and Contracting (Pty) Ltd, we specialise in delivering precision fit-outs, renovations, and facilities maintenance and management for retail, corporate, residential, and mission-critical environments. Based in Gauteng, South Africa, we bring world-class standards to every project - ensuring spaces are completed on time, on budget, and with zero disruption.
 
-Our Niche & Experience:
+What We Do
 
-Our founder gained extensive hands-on experience in New Zealand, personally managing luxury brand fit-outs for Gucci, Prada, Louis Vuitton, YSL, and Van Cleef & Arpel. He also led projects for Nando’s, data centers, and City Fitness gyms, Allpress Coffee Shops, dentists, all major fastfood chains. Now, all that expertise is being poured into De Waldt Consulting and Contracting to deliver the same level of excellence right here in South Africa.
+We partner with clients to transform interiors into functional, high-performance spaces that reflect their brand and purpose. Whether it’s a residential upgrade, retail flagship, corporate office, or high-security data centre, our approach combines technical expertise, meticulous project management, and a deep respect for craftsmanship.
 
-Why Choose Us?
+From initial consultation to final handover, we provide end-to-end delivery - managing every phase with precision and accountability.
 
-We combine a respect for traditional craftsmanship with a fresh, forward-thinking approach. With proven international experience and a strong portfolio of premium fit-outs, we’re ready to partner with you to bring world-class quality to your projects.
+Our Approach
+
+We believe in zero-disruption delivery, ensuring business operations continue seamlessly during construction. Our clean-build protocols maintain dust, noise, and waste control to the highest standards, while our single point of accountability gives clients total clarity and confidence from start to finish.
+
+We combine traditional craftsmanship with a fresh, forward-thinking approach - applying proven international experience to deliver spaces that are both practical and inspiring. With a strong portfolio and a commitment to quality, we’re ready to bring your project to life with efficiency, transparency, and care.
+
+Our Story
+
+Our founder, Jan “JD” Jordaan, built his expertise in New Zealand, where he managed projects across multiple sectors - including luxury retail and flagship stores, corporate offices, gyms, hospitality venues, and data centres. His hands-on leadership and global experience set the foundation for DeWaldt Consulting and Contracting’s standards today: excellence, integrity, and precision.
+
+Now established in South Africa, JD and his team continue to apply those same international best practices to deliver results that meet - and exceed — expectations.
+
+Why Choose DeWaldt
+
+Zero-Disruption Delivery: After-hours and live-environment works to keep your operations running.
+
+Clean-Build Protocols: Dust, noise, and waste control built into every phase.
+
+Single Point of Accountability: Clear communication and total project ownership.
+
+Proven International Expertise: Global experience, local delivery.
+
+Commitment to Quality: Every detail, done right - the first time.
