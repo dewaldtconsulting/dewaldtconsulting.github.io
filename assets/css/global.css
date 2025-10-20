@@ -949,7 +949,7 @@ footer.theme-light .copyright p {
 
 /* About Section */
 .section-selector-5.theme-light { 
-    background-color: var(--sky-100); 
+    background-color: var(--sky-050); 
     margin-top: -60px;
 }
 
@@ -1009,7 +1009,7 @@ footer.theme-light .copyright p {
 /* Mobile About Section */
 @media (max-width: 767px) {
     .section-selector-5.theme-light { 
-        background-color: var(--sky-100); 
+        background-color: var(--sky-050); 
         margin-top: -40px;
     }
 }
