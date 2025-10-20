@@ -1,27 +1,43 @@
 # dewaldtconsulting.github.io
 DeWaldt Consulting &amp; Contracting Pty Ltd
 
-About Us
+Who We Are
 
-At DeWaldt Consulting and Contracting (Pty) Ltd, we specialise in delivering precision fit-outs, renovations, and facilities maintenance and management for retail, corporate, residential, and mission-critical environments. Based in Gauteng, South Africa, we bring world-class standards to every project - ensuring spaces are completed on time, on budget, and with zero disruption.
+At DeWaldt Consulting and Contracting (Pty) Ltd, we deliver precision fit-outs, renovations, and facilities management for retail, corporate, residential, and mission-critical environments.
+
+Founded in 2016 and based in Gauteng, South Africa, we bring world-class standards and a forward-thinking approach to every project — ensuring each space is delivered on time, on budget, and with zero disruption.
 
 What We Do
 
-We partner with clients to transform interiors into functional, high-performance spaces that reflect their brand and purpose. Whether it’s a residential upgrade, retail flagship, corporate office, or high-security data centre, our approach combines technical expertise, meticulous project management, and a deep respect for craftsmanship.
+We transform interiors into high-performance, functional spaces that reflect each client’s brand, purpose, and operational needs.
 
-From initial consultation to final handover, we provide end-to-end delivery - managing every phase with precision and accountability.
+Commercial & Retail
+Fit-outs, refurbishments, and upgrades for offices, retail flagships, and hospitality spaces — all delivered with minimal business interruption.
 
-Our Approach
+Residential
+Bespoke renovations and high-end finishes that combine craftsmanship, design precision, and seamless project management.
 
-We believe in zero-disruption delivery, ensuring business operations continue seamlessly during construction. Our clean-build protocols maintain dust, noise, and waste control to the highest standards, while our single point of accountability gives clients total clarity and confidence from start to finish.
+Mission-Critical Environments
+Data centres and live trading facilities built to perform — incorporating DC-friendly clean-build protocols, containment solutions, and strict environmental control.
 
-We combine traditional craftsmanship with a fresh, forward-thinking approach - applying proven international experience to deliver spaces that are both practical and inspiring. With a strong portfolio and a commitment to quality, we’re ready to bring your project to life with efficiency, transparency, and care.
+Facilities Management
+Planned maintenance and rapid-response services that keep your assets operational, safe, and compliant.
+
+How We Work
+
+We specialise in zero-disruption delivery, completing after-hours and night works in live environments to keep your operations running smoothly.
+
+Our clean-build protocols ensure dust, noise, and waste control at every stage, while our single point of accountability gives you total confidence from planning to handover.
+
+Every project is led by an experienced, fully vetted team — combining traditional craftsmanship with innovative, forward-thinking construction methods.
 
 Our Story
 
-Our founder, Jan “JD” Jordaan, built his expertise in New Zealand, where he managed projects across multiple sectors - including luxury retail and flagship stores, corporate offices, gyms, hospitality venues, and data centres. His hands-on leadership and global experience set the foundation for DeWaldt Consulting and Contracting’s standards today: excellence, integrity, and precision.
+Our founder, Jan “JD” Jordaan, built his expertise in New Zealand, managing projects across luxury retail, corporate offices, gyms, hospitality, and data centres.
 
-Now established in South Africa, JD and his team continue to apply those same international best practices to deliver results that meet - and exceed — expectations.
+His international experience set the foundation for DeWaldt’s ethos today: excellence, integrity, and precision.
+
+Bringing that expertise home to South Africa, JD and his team apply the same global standards locally — delivering spaces that perform beautifully and operate seamlessly.
 
 Why Choose DeWaldt
 
