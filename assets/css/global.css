@@ -954,7 +954,7 @@ footer.theme-light .copyright p {
 }
 
 .section-selector-5.theme-light .about-headings {
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-family: "Montserrat", serif;
     text-align: center;
     color: var(--darknavy);
@@ -971,25 +971,25 @@ footer.theme-light .copyright p {
 }
 
 .section-selector-5.theme-light .about-text {
-    font-size: 1.5vw;
+    font-size: 1.75vw;
     font-family: "Inter", sans-serif;
-    font-weight: 400;
+    font-weight: 350;
     margin-bottom: 20px;
 }
 
 .section-selector-5.theme-light li {
-    font-size: 1.5vw;
+    font-size: 1.75vw;
     font-family: "Inter", sans-serif;
 }
 
 .section-selector-5.theme-light .fa-li i {
-    font-size: 1.5vw;
+    font-size: 1.75vw;
     color: var(--darknavy);
 }
 
 .section-selector-5.theme-light .about-text a:link,
 .section-selector-5.theme-light .about-text a:visited {
-    font-size: 1.5vw;
+    font-size: 1.75vw;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     text-decoration: none;
@@ -999,7 +999,7 @@ footer.theme-light .copyright p {
 .section-selector-5.theme-light .about-text a:focus,
 .section-selector-5.theme-light .about-text a:hover, 
 .section-selector-5.theme-light .about-text a:active {
-    font-size: 1.5vw;
+    font-size: 1.75vw;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     text-decoration: none;
@@ -1016,7 +1016,7 @@ footer.theme-light .copyright p {
 
 @media (max-width: 767px) {
     .section-selector-5.theme-light .about-headings {
-        font-size: 4vw;
+        font-size: 6vw;
         font-family: "Montserrat", serif;
         text-align: center;
         color: var(--darknavy);
@@ -1027,8 +1027,8 @@ footer.theme-light .copyright p {
 @media (max-width: 767px) {
     .section-selector-5.theme-light .divider {
         display: block;
-        height: 1px;
-        width: 15%;
+        height: 2px;
+        width: 25%;
         margin-left: auto;
         margin-right: auto;
         background-color: var(--iconsilver);
@@ -1038,23 +1038,23 @@ footer.theme-light .copyright p {
 
 @media (max-width: 767px) {
     .section-selector-5.theme-light .about-text {
-        font-size: 2vw;
+        font-size: 3vw;
         font-family: "Inter", sans-serif;
-        font-weight: 400;
+        font-weight: 450;
         margin-bottom: 10px;
     }
 }
 
 @media (max-width: 767px) {
     .section-selector-5.theme-light li {
-        font-size: 2vw;
+        font-size: 3vw;
         font-family: "Inter", sans-serif;
     }
 }
 
 @media (max-width: 767px) {
     .section-selector-5.theme-light .fa-li i {
-        font-size: 2vw;
+        font-size: 3vw;
         color: var(--darknavy);
     }
 }
@@ -1062,7 +1062,7 @@ footer.theme-light .copyright p {
 @media (max-width: 767px) {
     .section-selector-5.theme-light .about-text a:link,
     .section-selector-5.theme-light .about-text a:visited {
-        font-size: 2vw;
+        font-size: 3vw;
         font-family: "Inter", sans-serif;
         font-weight: bold;
         text-decoration: none;
@@ -1074,7 +1074,7 @@ footer.theme-light .copyright p {
     .section-selector-5.theme-light .about-text a:focus,
     .section-selector-5.theme-light .about-text a:hover, 
     .section-selector-5.theme-light .about-text a:active {
-        font-size: 2vw;
+        font-size: 3vw;
         font-family: "Inter", sans-serif;
         font-weight: bold;
         text-decoration: none;
