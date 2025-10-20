@@ -962,11 +962,12 @@ footer.theme-light .copyright p {
 
 .section-selector-5.theme-light .divider {
     display: block;
-    height: 3px;
-    width: 12%;
+    width: 15%;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--iconsilver);
-    margin: 10px auto 25px;
-    box-shadow: 0 0 10px #0D0D0D;
+    margin-bottom: 30px;
 }
 
 .section-selector-5.theme-light .about-text {
@@ -1028,9 +1029,10 @@ footer.theme-light .copyright p {
         display: block;
         height: 1px;
         width: 15%;
+        margin-left: auto;
+        margin-right: auto;
         background-color: var(--iconsilver);
-        margin: 0px auto 10px;
-        box-shadow: 0 0 10px #0D0D0D;
+        margin-bottom: 15px;
     }
 }
 
