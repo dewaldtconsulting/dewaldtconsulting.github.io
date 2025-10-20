@@ -946,3 +946,136 @@ footer.theme-light .copyright p {
         margin-bottom: 1px;
     }
 }
+
+/* About Section */
+.section-selector-5.theme-light { 
+    background-color: var(--sky-100); 
+    margin-top: -60px;
+}
+
+.section-selector-5.theme-light .about-headings {
+    font-size: 3vw;
+    font-family: "Montserrat", serif;
+    text-align: center;
+    color: var(--darknavy);
+}
+
+.section-selector-5.theme-light .divider {
+    display: block;
+    height: 3px;
+    width: 12%;
+    background-color: var(--iconsilver);
+    margin: 10px auto 25px;
+    box-shadow: 0 0 10px #0D0D0D;
+}
+
+.section-selector-5.theme-light .about-text {
+    font-size: 1.5vw;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.section-selector-5.theme-light li {
+    font-size: 1.5vw;
+    font-family: "Inter", sans-serif;
+}
+
+.section-selector-5.theme-light .fa-li i {
+    font-size: 1.5vw;
+    color: var(--darknavy);
+}
+
+.section-selector-5.theme-light .about-text a:link,
+.section-selector-5.theme-light .about-text a:visited {
+    font-size: 1.5vw;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--hoverblue);
+}
+
+.section-selector-5.theme-light .about-text a:focus,
+.section-selector-5.theme-light .about-text a:hover, 
+.section-selector-5.theme-light .about-text a:active {
+    font-size: 1.5vw;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--darknavy);
+}
+
+/* Mobile About Section */
+@media (max-width: 767px) {
+    .section-selector-5.theme-light { 
+        background-color: var(--sky-100); 
+        margin-top: -40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-selector-5.theme-light .about-headings {
+        font-size: 4vw;
+        font-family: "Montserrat", serif;
+        text-align: center;
+        color: var(--darknavy);
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-selector-5.theme-light .divider {
+        display: block;
+        height: 1px;
+        width: 15%;
+        background-color: var(--iconsilver);
+        margin: 0px auto 10px;
+        box-shadow: 0 0 10px #0D0D0D;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-selector-5.theme-light .about-text {
+        font-size: 2vw;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-selector-5.theme-light li {
+        font-size: 2vw;
+        font-family: "Inter", sans-serif;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-selector-5.theme-light .fa-li i {
+        font-size: 2vw;
+        color: var(--darknavy);
+    }
+}
+
+@media (max-width: 767px) {
+    .section-selector-5.theme-light .about-text a:link,
+    .section-selector-5.theme-light .about-text a:visited {
+        font-size: 2vw;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        color: var(--hoverblue);
+    }
+}
+
+@media (max-width: 767px) {
+    .section-selector-5.theme-light .about-text a:focus,
+    .section-selector-5.theme-light .about-text a:hover, 
+    .section-selector-5.theme-light .about-text a:active {
+        font-size: 2vw;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        color: var(--darknavy);
+    }
+}
