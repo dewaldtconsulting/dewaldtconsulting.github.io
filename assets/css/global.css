@@ -1423,8 +1423,8 @@ input[type="checkbox"] {
 
 @media (max-width: 767px) {
     input[type="text"] {
-        height: 20px;
-        font-size: smaller !important;
+        height: 30px !important;
+        font-size: 16px !important;
         font-family: "Inter", sans-serif !important;
         border-style: none !important;
     }   
@@ -1432,8 +1432,8 @@ input[type="checkbox"] {
 
 @media (max-width: 767px) {
     input[type="email"] {
-        height: 20px;
-        font-size: smaller !important;
+        height: 30px !important;
+        font-size: 16px !important;
         font-family: "Inter", sans-serif !important;
         border-style: none !important;
     }
@@ -1441,8 +1441,8 @@ input[type="checkbox"] {
 
 @media (max-width: 767px) {
     input[type="tel"] {
-        height: 20px !important;
-        font-size: smaller !important;
+        height: 30px !important;
+        font-size: 16px !important;
         background-color: white !important;
         font-family: "Inter", sans-serif !important;
         border-style: none !important;
@@ -1451,12 +1451,12 @@ input[type="checkbox"] {
 
 @media (max-width: 767px) {
     input[type="date"] {
-        height: 20px !important;
-        font-size: smaller !important;
+        height: 30px !important;
+        font-size: 16px !important;
         background-color: white !important;
         font-family: "Inter", sans-serif !important;
         border-style: none !important;
-        width: 98% !important;
+        width: 95% !important;
     }
 }
 
@@ -1507,10 +1507,10 @@ input[type="checkbox"] {
 
 @media (max-width: 767px) {
     .section-selector-7.theme-light select {
-        height: 20px;
-        width: 98% !important;
+        height: 30px !important;
+        font-size: 16px !important;
+        width: 95% !important;
         border-radius: 5px;
-        font-size: smaller;
     }
 }
 
