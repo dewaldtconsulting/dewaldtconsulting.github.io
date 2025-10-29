@@ -1213,7 +1213,7 @@ footer.theme-light .copyright p {
 
 /* Contact Form */
 .section-selector-7.theme-light .form-container {
-    background-image: url(../img/contact-background.webp) !important;
+    background-image: url(../img/building-contact.webp) !important;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1228,7 +1228,7 @@ footer.theme-light .copyright p {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
     border-radius: 20px;
     z-index: 1;
 }
@@ -1456,7 +1456,7 @@ input[type="checkbox"] {
         background-color: white !important;
         font-family: "Inter", sans-serif !important;
         border-style: none !important;
-        width: 95% !important;
+        width: 90% !important;
     }
 }
 
@@ -1509,7 +1509,7 @@ input[type="checkbox"] {
     .section-selector-7.theme-light select {
         height: 30px !important;
         font-size: 16px !important;
-        width: 95% !important;
+        width: 90% !important;
         border-radius: 5px;
     }
 }
