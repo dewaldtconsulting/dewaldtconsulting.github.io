@@ -99,8 +99,6 @@
 
             <form id="email-form" name="email-form" charset="utf-8" method="POST" action="https://formspree.io/f/xqayvvnq">
 
-            <input type="hidden" name="_redirect" value="dewaldtconsulting.github.io">
-
                 <div class="form-row">
                     <label for="first_name">First Name <b class="asterisk">*</b></label>
                     <input type="text" name="first_name" id="first_name" required="">
@@ -202,12 +200,63 @@ navToggle.addEventListener("click", () => {
 </script>
 
 <!-- JavaScript for Clearing Formspree -->
-<script>
+<!-- <script>
     window.onbeforeunload = () => {
         for(const form of document.getElementsByTagName('form')) {
             form.reset();
         }
     }
+</script> -->
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("email-form");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const data = new FormData(form);
+    const submitButton = form.querySelector("#btn-submit");
+
+    // Disable the button to prevent double submissions
+    submitButton.disabled = true;
+    submitButton.querySelector("span").textContent = "Sending...";
+
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: data,
+        headers: { "Accept": "application/json" }
+      });
+
+      if (response.ok) {
+        // Optional confirmation alert
+        alert("Thank you! Your message has been sent successfully.");
+
+        // Redirect after a short delay (optional)
+        setTimeout(() => {
+          window.location.href = "https://dewaldtconsulting.github.io/contact";
+        }, 1000);
+
+        // Clear form (also helps if redirect is disabled)
+        form.reset();
+      } else {
+        alert("There was a problem submitting your form. Please try again.");
+      }
+    } catch (error) {
+      alert("Network error — please try again later.");
+    } finally {
+      // Re-enable the button
+      submitButton.disabled = false;
+      submitButton.querySelector("span").textContent = "Submit";
+    }
+  });
+
+  // Clear form when user returns via back/forward navigation (mobile bfcache)
+  window.addEventListener("pageshow", () => {
+    form.reset();
+  });
+});
 </script>
 
 </body>
