@@ -1550,3 +1550,188 @@ input[type="checkbox"] {
         margin-bottom: 0 !important;
     }
 }
+
+/* POPIA Banner */
+#popia-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 -4px 12px rgba(0,0,0,0.15);
+    font-family: "Inter", sans-serif;
+    z-index: 9999;
+    transform: translateY(100%);
+    transition: transform 0.5s ease-in-out;
+    font-family: "Inter", sans-serif;
+}
+
+#popia-banner.popia-show {
+    transform: translateY(0);
+}
+
+.popia-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+
+.popia-content p {
+    margin: 0 0 25px;
+    color: black;
+    line-height: 1.5;
+}
+
+.popia-content a {
+    color: var(--darknavy);
+    text-decoration: underline;
+    text-decoration-color: var(--darknavy);
+}
+
+.popia-content a:hover {
+    color: var(--backgroundblue);
+    text-decoration: underline;
+    text-decoration-color: var(--backgroundblue);
+}
+
+.popia-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.popia-label {
+    display: inline-flex !important;  /* inline-flex keeps them on same line */
+    align-items: center !important;  /* vertically center checkbox and text */
+    gap: 8px !important;   /* space between checkbox and text */
+    white-space: nowrap !important;  /* prevent text from wrapping under the checkbox */
+    font-size: 13px;
+    margin: 0;  /* override rules that add margin */
+    width: auto !important;  /* prevent forced full-width labels */
+    min-width: 0;  /* robust against flexbox bugs */
+}
+
+.popia-checkbox {
+    margin: 0 !important;  /* remove any external margins */
+    flex: 0 0 auto !important;  /* prevent checkbox from stretching */
+    vertical-align: middle !important;
+    transform: translateY(0);  /* keep baseline consistent */
+    cursor: pointer;
+}
+
+#popia-save, #popia-reject {
+    background-color: var(--darknavy);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+#popia-save:hover, #popia-reject:hover {
+    background-color: var(--backgroundblue);
+}
+
+/* Mobile POPIA Banner */
+@media (max-width: 767px) {
+    .popia-content {
+      padding: 15px;
+      font-size: 13px;
+    }
+}
+
+@media (max-width: 767px) {
+    .popia-options {
+      flex-direction: column;
+      gap: 10px;
+    }
+}
+
+/* Privacy Policy */
+.privacy-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.privacy-container h1 {
+    font-family: "Montserrat", serif;
+    color: var(--darknavy);
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 56px;
+}
+
+.privacy-container p.date{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.privacy-container p.intro {
+    font-family: "Inter", sans-serif;
+    font-size: 16.5px;
+    margin-top: 15px;
+}
+
+.privacy-container h2 {
+    font-family: "Montserrat", serif;
+    color: var(--darknavy);
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 36px;
+}
+
+.privacy-container p.privacy-text {
+    font-family: "Inter", sans-serif;
+    font-size: 16.5px;
+}
+
+.privacy-container ul {
+    list-style-type: none;
+}
+
+.privacy-container .privacy-list-heading {
+    font-family: "Inter", sans-serif;
+    font-size: 16.5px;
+    margin-bottom: 7px;
+}
+
+.privacy-container li.privacy-lists {
+    font-family: "Inter", sans-serif;
+    font-size: 16.5px;
+}
+
+.privacy-container p.privacy-info {
+    font-family: "Inter", sans-serif;
+    font-size: 16.5px;
+    margin-top: 15px;
+}
+
+.privacy-container p.privacy-contact {
+    font-family: "Inter", sans-serif;
+    font-size: 16.5px;
+    margin-top: 15px;
+}
+
+.privacy-container p.privacy-text a:link {
+    font-family: "Inter", sans-serif;
+    font-size: 16.5px;
+    text-decoration: none;
+    color: var(--backgroundblue);
+}
+
+.privacy-container p.privacy-text a:hover {
+    text-decoration: none;
+    color: red;
+}
