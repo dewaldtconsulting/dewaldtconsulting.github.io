@@ -1274,10 +1274,14 @@ input[type="date"] {
 }
 
 input[type="checkbox"] {
-    margin-top: -30px;
-    margin-left: 260px;
+    appearance: auto;
+    -webkit-appearance: auto;
     width: 15px !important;
-    height: 15px !important;    
+    height: 15px !important;
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    margin-top: 5px !important;
 }
 
 .section-selector-7.theme-light .form-row {
@@ -1343,18 +1347,28 @@ input[type="checkbox"] {
     font-family: "Inter", sans-serif;
     color: white !important;
     font-size: larger !important;
+    display: block;
+    margin-bottom: 20px !important;
+    margin-left: 20px
+}
+
+.section-selector-7.theme-light .checkbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .section-selector-7.theme-light .form-row7 {
     width: 100%;
     margin-top: 20px;
-    margin-left: 20px;
+    position: relative;
 }
 
 .section-selector-7.theme-light .form-footer {
     display: flex;
     justify-content: center !important;
-    margin-top: 50px;
+    margin-top: 30px;
     
 }
 
@@ -1363,6 +1377,8 @@ input[type="checkbox"] {
     background-color: var(--darknavy) !important;
     border-color: var(--darknavy) !important;
     color: white !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-selector-7.theme-light .form-footer button:hover {
@@ -1477,7 +1493,7 @@ input[type="checkbox"] {
         margin-left: auto;
         margin-right: auto;
         margin-top: 5px;
-        margin-bottom: 5px;
+        margin-bottom: 20px !important;
     }
 }
 
@@ -1536,6 +1552,8 @@ input[type="checkbox"] {
         font-family: "Inter", sans-serif;
         color: white !important;
         font-size: 3vw !important;
+        margin-left: 12.5px !important;
+        margin-bottom: 30px !important;
     }
 }
 
@@ -1551,11 +1569,9 @@ input[type="checkbox"] {
     .section-selector-7.theme-light .form-footer button {
         font-size: 2.75vw !important;
         display: block !important;
-        /*width: 50% !important;
-        height: 50% !important;*/
         margin-left: auto;
         margin-right: auto;
-        margin-top: -20px !important;
+        margin-top: -10px !important;
         margin-bottom: 0 !important;
     }
 }
