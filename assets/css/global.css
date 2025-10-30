@@ -1549,10 +1549,10 @@ input[type="checkbox"] {
 
 @media (max-width: 767px) {
     .section-selector-7.theme-light .form-footer button {
-        font-size: 3vw !important;
+        font-size: 2.75vw !important;
         display: block !important;
-        width: 50% !important;
-        height: 50% !important;    
+        /*width: 50% !important;
+        height: 50% !important;*/
         margin-left: auto;
         margin-right: auto;
         margin-top: -20px !important;
