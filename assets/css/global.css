@@ -1596,6 +1596,22 @@ input[type="date"] {
     }
 }
 
+/* --- iPhone 12 Specific Override (< 400px) --- */
+@media (max-width: 400px) {
+    .form-row7 label.checkbox-row input[type="checkbox"] {
+        margin-left: -10px !important; /* Example: -120px + 20px = -100px */
+        
+        /* Mobile Vertical: Fine-tune this value for vertical alignment on a phone */
+        top: 0 !important; 
+
+        /* Reset left property to prevent conflicts */
+        left: unset !important;
+        
+        /* Ensure no margins/padding interfere */
+        padding: 0 !important; 
+    }
+}
+
 @media (max-width: 767px) {
 .form-row7 label.checkbox-row .consent-text {
     padding-left: 23px !important;
